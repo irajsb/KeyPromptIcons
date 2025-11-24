@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "KeyPromptIcons",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Iraj MH Aurelion",
+	"CreatedByURL": "https://Aurelion.net",
+	"DocsURL": "https://irajsb.github.io/UMGPluginDocs/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/b417d08eb42940c18f5720221640de3d",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+		"EngineVersion": "5.1.0",
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "KeyPromptIcons",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+				"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "KeyPromptIconsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
